@@ -304,3 +304,19 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:bgatanasov/Automating-Workflow-with-Git-Hooks-and-CICD-Integration.git
 cb85718..2f5acfd main -> main
 branch 'main' set up to track 'origin/main'.
+
+valeri@win11-teslab MINGW64 /c/Exam/Automating Workflow with Git Hooks and CICD Integration (main)
+$ git reflog
+710c2d9 (HEAD -> main, origin/main) HEAD@{0}: commit: modify readme file
+2f5acfd HEAD@{1}: commit: added workflow files
+cb85718 HEAD@{2}: commit: added workflow files
+1f87bf8 HEAD@{3}: commit: modify README.md
+cacc3a3 HEAD@{4}: commit: modify app.test.js
+4e353d3 HEAD@{5}: commit: modify package.json
+ea26863 HEAD@{6}: commit: modify package.json
+66145ea HEAD@{7}: commit: modified agian the file app.tets for testing push
+b8e1b97 HEAD@{8}: commit: modified the file app.tets for testing push
+6502450 HEAD@{9}: commit: updated the file app.tets for testing push
+d67f868 HEAD@{10}: commit: updated new file app.tets for testing push
+06b25d2 HEAD@{11}: commit: updated formating in app.js and readme.md
+92cd3eb HEAD@{12}: commit (initial): initial commits
