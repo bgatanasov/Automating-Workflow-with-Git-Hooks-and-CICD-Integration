@@ -268,3 +268,39 @@ To github.com:bgatanasov/Automating-Workflow-with-Git-Hooks-and-CICD-Integration
 
 - [new branch] main -> main
   branch 'main' set up to track 'origin/main'.
+
+valeri@win11-teslab MINGW64 /c/Exam/Automating Workflow with Git Hooks and CICD Integration (main)
+$ git commit -m "added workflow files"
+Prettier is runnig to check ...
+Checking formatting...
+All matched files use Prettier code style!
+Prettier pass all and conitnue with commit!
+[main 2f5acfd] added workflow files
+1 file changed, 3 deletions(-)
+
+valeri@win11-teslab MINGW64 /c/Exam/Automating Workflow with Git Hooks and CICD Integration (main)
+$ git push -u origin main
+Test is running ...
+
+> automating-workflow-with-git-hooks-and-cicd-integration@1.0.0 test
+> jest
+
+PASS ./app.test.js
+√ adds 1 + 2 to equal 3 (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests: 1 passed, 1 total
+Snapshots: 0 total
+Time: 1.686 s
+Ran all test suites.
+All test passed and push is allowed to remote repo!
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 406 bytes | 135.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:bgatanasov/Automating-Workflow-with-Git-Hooks-and-CICD-Integration.git
+cb85718..2f5acfd main -> main
+branch 'main' set up to track 'origin/main'.
