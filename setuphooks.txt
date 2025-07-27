@@ -1,0 +1,1 @@
+1.Setup a pre-commit hook and 2.Setup pre-push hook!
